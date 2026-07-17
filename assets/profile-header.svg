@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Danial Younas — Systems and Data Engineer</title>
+  <desc id="desc">Engineering drawing style profile banner with drafting grid, dimensions and hexagonal geometry.</desc>
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#cbc8bf" stroke-width="0.7" opacity="0.65"/>
+    </pattern>
+    <pattern id="largeGrid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M100 0H0V100" fill="none" stroke="#9d9a92" stroke-width="1" opacity="0.7"/>
+    </pattern>
+    <pattern id="darkGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#4a4d50" stroke-width="0.8" opacity="0.55"/>
+    </pattern>
+    <clipPath id="rightCut">
+      <polygon points="835,0 1200,0 1200,320 780,320"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="320" fill="#f2f0e9"/>
+  <rect width="1200" height="320" fill="url(#largeGrid)"/>
+
+  <g clip-path="url(#rightCut)">
+    <rect x="760" width="440" height="320" fill="#17191b"/>
+    <rect x="760" width="440" height="320" fill="url(#darkGrid)"/>
+  </g>
+
+  <g fill="none" stroke="#25282b">
+    <path d="M38 42H766" stroke-width="2"/>
+    <path d="M38 263H728" stroke-width="1"/>
+    <path d="M38 280H728" stroke-width="1" stroke-dasharray="5 5"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#151719">
+    <text x="42" y="96" font-size="20" font-weight="700" letter-spacing="5">SYSTEMS / DATA / INFRASTRUCTURE</text>
+    <text x="38" y="183" font-size="70" font-weight="800" letter-spacing="2">DANIAL YOUNAS</text>
+    <text x="42" y="224" font-family="monospace" font-size="17" letter-spacing="2">IoT ARCHITECTURE · BACKEND ENGINEERING · CLOUD PLATFORMS</text>
+  </g>
+
+  <g fill="#315fce" font-family="monospace">
+    <text x="42" y="30" font-size="12" letter-spacing="2">DWG. PROFILE-01</text>
+    <text x="581" y="30" font-size="12" letter-spacing="2">SCALE 1:1</text>
+    <text x="42" y="303" font-size="12" letter-spacing="2">ISLAMABAD, PK → EU / GULF</text>
+  </g>
+
+  <g stroke="#315fce" fill="none" stroke-width="2">
+    <path d="M42 248H294"/>
+    <path d="M42 242V254M294 242V254"/>
+    <path d="M314 248H726" stroke-dasharray="8 6"/>
+  </g>
+  <g fill="#315fce" font-family="monospace" font-size="11">
+    <text x="133" y="244">252 mm</text>
+    <text x="520" y="244">SYSTEM BOUNDARY</text>
+  </g>
+
+  <g transform="translate(900 42)" stroke="#e6e4dc" fill="none">
+    <polygon points="90,0 168,45 168,135 90,180 12,135 12,45" stroke-width="2"/>
+    <polygon points="90,29 143,60 143,121 90,151 37,121 37,60" stroke="#315fce" stroke-width="3"/>
+    <circle cx="90" cy="90" r="20" stroke-width="2"/>
+    <path d="M90 29V70M90 110V151M37 60L72 80M108 100L143 121M143 60L108 80M72 100L37 121" opacity="0.7"/>
+  </g>
+
+  <g font-family="monospace" fill="#e6e4dc">
+    <text x="870" y="254" font-size="14" letter-spacing="2">DESIGN</text>
+    <text x="870" y="276" font-size="14" letter-spacing="2">BUILD</text>
+    <text x="870" y="298" font-size="14" letter-spacing="2">OPERATE</text>
+  </g>
+  <g fill="#315fce">
+    <circle cx="845" cy="249" r="4"/>
+    <circle cx="845" cy="271" r="4"/>
+    <circle cx="845" cy="293" r="4"/>
+  </g>
+
+  <g stroke="#25282b" stroke-width="1">
+    <path d="M738 0V16M748 0V10M758 0V16M768 0V10M778 0V16M788 0V10M798 0V16M808 0V10M818 0V16M828 0V10"/>
+  </g>
+</svg>
